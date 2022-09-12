@@ -1,5 +1,13 @@
+* {
+  background-color:rgba(200, 93, 0, 0.1);
+}
+
 div {
   background-color: rgb(230, 230, 200);
+}
+
+div.image {
+  background-color: blueviolet;
 }
 
 .harvard-university {
@@ -23,6 +31,20 @@ div {
 .ul-li-facts-2 {
   background-color: tomato;
   color: powderblue;
+}
+
+li.ol-li-contents-history {
+  background-color:teal;
+  color:azure
+}
+
+.ol-li-contents-notable-people a {
+  background-color: darkolivegreen;
+  color: beige;
+}
+
+.div-colonial-era > p {
+  color: darkslateblue;
 }
 
 #blue {
