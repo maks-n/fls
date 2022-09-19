@@ -5,3 +5,5 @@
 [Lesson 3](https://github.com/maks-n/fls/tree/l3)
 
 [Lesson 4](https://github.com/maks-n/fls/tree/l4)
+
+[Lesson 5](https://github.com/maks-n/fls/tree/l5)
