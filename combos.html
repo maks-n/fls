@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link href="css/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/combos.css">
+  <title>FLS | Lesson 5 - COMBO!</title>
+</head>
+<body>
+
+<main>
+
+  <div>
+    <div>
+      <div class="description">
+      <p>{<br>
+        Combo 1: {<br>
+        #combo-1 * {
+        color: violet;
+        background-color: blue;
+        }<br>
+
+        #combo-1 div ~ div {
+        color: white;
+        background-color: brown;
+        }<br>
+
+        #combo-1 div ~ p {
+        background-color: cadetblue;
+        }<br>
+
+        #combo-1 img ~ img {
+        background-color: darkgoldenrod;
+        }<br>
+
+        #combo-1 li ~ li {
+        color: springgreen;
+        }<br>
+
+        #combo-1 span ~ span {
+        color: black;
+        }<br>
+
+        #combo-1 img ~ p {
+        color: azure;
+        }<br>
+      }</p>
+      </div>
+
+      <div id="combo-1">
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50" title="here:{#combo-1 *} after:{#combo-1 img ~ img}">
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50" title="here:{#combo-1 img ~ img}">
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50" title="here:{#combo-1 img ~ img}">
+
+        <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <div>here:{#combo-1 *} after:{#combo-1 div ~ div} -- I'm a 'div'</div>
+        <div>here:{#combo-1 div ~ div} -- I'm a 'div'</div>
+        <div>here:{#combo-1 div ~ div} -- I'm a 'div'</div>
+        <div>
+          <div>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'div' in 'div'</div>
+        </div>
+        <div>
+          <div>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'div' in 'div'</div>
+        </div>
+        <p>here:{{#combo-1 div ~ p}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <p>here:{{#combo-1 div ~ p}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <div>
+          <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'p' in 'div'</p>
+        </div>
+        <div>
+          <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'p' in 'div'</p>
+        </div>
+        <div>
+          <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm '<span>span</span>' in 'p' in 'div'</p>
+          <p>before:{#combo-1 div ~ div} here:{{#combo-1 *} {#combo-1 span ~ span}} -- I'm '<span>span</span>' after '<span>span</span>' in 'p' in 'div'</p>
+          <p>before:{#combo-1 div ~ div} here:{{#combo-1 *} {#combo-1 span ~ span}} -- I'm '<span>span</span>' after '<span>span</span>' after '<span>span</span>' in 'p' in 'div'</p>
+        </div>
+        <div>
+          <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm '<span>span</span>' in 'p' in 'div'</p>
+        </div>
+        <ul>
+          <li>here:{#combo-1 *} after:{#combo-1 li ~ li} -- I'm 'li' in 'ul'</li>
+          <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ul'</li>
+          <li>
+            here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' and after me will be another 'li' in 'ul'
+            <ul>
+              <li>here:{#combo-1 *} after:{#combo-1 li ~ li} -- -I'm ('li' in 'ul') in 'li' of 'ul'</li>
+            </ul>
+          </li>
+          <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' in 'div'</li>
+          <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' in 'div'</li>
+        </ul>
+        <div>
+          <ul>
+            <li>before:{#combo-1 div ~ div} here:{#combo-1 *} after:{#combo-1 li ~ li} -- I'm 'li' in 'ul' in 'div'</li>
+            <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' in 'div'</li>
+            <li>
+              here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' and after me will be another 'li' in 'ul' in 'div'
+              <ul>
+                <li>here:{#combo-1 *} after:{#combo-1 li ~ li} -- -I'm ('li' in 'ul') in 'li' of 'ul' in 'div'</li>
+              </ul>
+            </li>
+            <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' in 'div'</li>
+            <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ul' in 'div'</li>
+          </ul>
+        </div>
+        <p>here:{{#combo-1 div ~ p}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <p>here:{{#combo-1 div ~ p}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <p>here:{{#combo-1 div ~ p}{#combo-1 img ~ p}} -- I'm 'p'</p>
+        <ol>
+          <li>here:{#combo-1 *} after:{#combo-1 li ~ li} -- I'm 'li' in 'ol'</li>
+          <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ol'</li>
+          <li>
+            here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' and after me will be another 'li' in 'ol'
+            <ul>
+              <li>here:{#combo-1 *} after:{#combo-1 li ~ li} -- -I'm ('li' in 'ol') in 'li' of 'ol'</li>
+            </ul>
+          </li>
+          <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' in 'div'</li>
+          <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' in 'div'</li>
+        </ol>
+        <div>
+          <ol>
+            <li>before:{#combo-1 div ~ div} here:{#combo-1 *} after:{#combo-1 li ~ li} -- I'm 'li' in 'ol' in 'div'</li>
+            <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' in 'div'</li>
+            <li>
+              here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' and after me will be another 'li' in 'ol' in 'div'
+              <ul>
+                <li>here:{#combo-1 *} after:{#combo-1 li ~ li} -- -I'm ('li' in 'ol') in 'li' of 'ol' in 'div'</li>
+              </ul>
+            </li>
+            <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' in 'div'</li>
+            <li>here:{#combo-1 li ~ li} -- I'm 'li' in 'ol' in 'div'</li>
+          </ol>
+        </div>
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+        </div>
+        <div>
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+            <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+            <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+            <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          </div>
+        </div>
+        <div>
+          <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'p' in 'div' on top of 'img'</p>
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+        </div>
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+          <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p' in 'div' below of 'img'</p>
+        </div>
+        <div>
+          <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'p' in 'div' on top of 'img'</p>
+          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p' in 'div' below of 'img'</p>
+        </div>
+      </div>
+    </div>
+
+    <!--    next-->
+
+  </div>
+</main>
+
+</body>
+</html>
