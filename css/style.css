@@ -1,0 +1,201 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+header {
+    background-color: #751717;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+main {
+    margin: 0 20px;
+    background-color: rgba(222, 184, 135, 0.1);
+}
+
+.header-main {
+    text-align: center;
+    background-color: bisque;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.contents {
+    width: 300px;
+    border: 1px dashed black;
+    background-color: rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+}
+.contents:hover {
+    border: 1px solid black;
+}
+.contents h2 {
+    font-weight: bold;
+    text-align: center;
+}
+.contents li a {
+    color: black;
+}
+.contents li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.neu-info {
+    text-align: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.neu-img {
+    text-align: center;
+}
+.neu-text {
+    text-align: left;
+}
+.neu-text ul li {
+    list-style: circle inside;
+}
+.neu-text li li {
+    padding-left: 10px;
+    list-style: disc inside;
+}
+
+.div-notable-img {
+    width: 200px;
+    text-align: center;
+}
+
+
+.important {
+    font-weight: bold;
+}
+.important:hover {
+    color: red;
+}
+
+
+li {
+    list-style: disc inside;
+}
+div {
+    padding: 10px;
+    border: 1px dashed rgba(200, 222, 135, 1);
+}
+div:hover {
+    border: 1px solid rgba(200, 222, 135, 1);
+}
+p {
+    background-color: rgba(200, 222, 135, 0.2);
+    line-height: 1.1;
+    font-family: Lato, serif;
+}
+a {
+    color: red;
+}
+a:hover {
+    color: blue;
+}
+img {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+}
+img:hover {
+    border: 1px solid blue;
+}
+
+/*------------------------------*/
+#special-1 {
+    padding: 50px 40px 30px 20px;
+    width: fit-content;
+    background-color: rgba(147, 91, 206, 0.75);
+}
+#special-2 {
+    padding: 40px 10px 20px;
+    width: fit-content;
+    background-color: rgba(147, 91, 206, 0.75);
+}
+#special-3 {
+    padding: 20px 50px;
+    width: fit-content;
+    background-color: rgba(147, 91, 206, 0.75);
+}
+#special-4 {
+    padding: 25px;
+    width: fit-content;
+    background-color: rgba(147, 91, 206, 0.75);
+}
+#special-5 {
+    margin: 25px;
+    width: fit-content;
+    background-color: rgba(91, 189, 206, 0.75);
+}
+#special-6 {
+    margin: 40px 10px;
+    width: fit-content;
+    background-color: rgba(91, 189, 206, 0.75);
+}
+#special-7 {
+    margin: 30px 20px 50px;
+    width: fit-content;
+    background-color: rgba(91, 189, 206, 0.75);
+}
+#special-8 {
+    margin: 10px 40px 20px 30px;
+    width: fit-content;
+    background-color: rgba(91, 189, 206, 0.75);
+}
+#special-9 {
+    word-spacing: 20px;
+}
+#special-10 {
+    letter-spacing: 5px;
+}
+#special-11 {
+    text-transform: capitalize;
+}
+#special-12 {
+    text-align: center;
+}
+#special-13 {
+    text-indent: 30px;
+}
+#special-14 {
+    line-height: 1.7;
+}
+#special-15 {
+    font-size: 25px;
+}
+#special-16 {
+    text-shadow: 3px 3px 2px #bd3030;
+}
+#special-17 {
+    text-shadow: -6px -3px 6px #58bd30;
+}
+#special-18 {
+    text-shadow: -10px 10px 15px #3051bd;
+}
+#special-19 {
+    text-shadow: 2px 4px 3px red, 4px 6px 3px green, 6px 8px 3px blue;
+}
+#special-20 {
+    text-decoration: line-through;
+}
