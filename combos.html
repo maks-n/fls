@@ -5,7 +5,7 @@
   <meta content="width=device-width initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <link href="css/reset.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/combos.css">
+  <link href="css/combos.css" rel="stylesheet">
   <title>FLS | Lesson 5 - COMBO!</title>
 </head>
 <body>
@@ -15,44 +15,48 @@
   <div>
     <div>
       <div class="description">
-      <p>{<br>
-        Combo 1: {<br>
-        #combo-1 * {
-        color: violet;
-        background-color: blue;
-        }<br>
+        <p>{<br>
+          Combo 1: {<br>
+          #combo-1 * {
+          color: violet;
+          background-color: blue;
+          }<br>
 
-        #combo-1 div ~ div {
-        color: white;
-        background-color: brown;
-        }<br>
+          #combo-1 div ~ div {
+          color: white;
+          background-color: brown;
+          }<br>
 
-        #combo-1 div ~ p {
-        background-color: cadetblue;
-        }<br>
+          #combo-1 div ~ p {
+          background-color: cadetblue;
+          }<br>
 
-        #combo-1 img ~ img {
-        background-color: darkgoldenrod;
-        }<br>
+          #combo-1 img ~ img {
+          background-color: darkgoldenrod;
+          }<br>
 
-        #combo-1 li ~ li {
-        color: springgreen;
-        }<br>
+          #combo-1 li ~ li {
+          color: springgreen;
+          }<br>
 
-        #combo-1 span ~ span {
-        color: black;
-        }<br>
+          #combo-1 span ~ span {
+          color: black;
+          }<br>
 
-        #combo-1 img ~ p {
-        color: azure;
-        }<br>
-      }</p>
+          #combo-1 img ~ p {
+          color: azure;
+          }<br>
+          }</p>
       </div>
 
       <div id="combo-1">
-        <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50" title="here:{#combo-1 *} after:{#combo-1 img ~ img}">
-        <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50" title="here:{#combo-1 img ~ img}">
-        <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50" title="here:{#combo-1 img ~ img}">
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png"
+             title="here:{#combo-1 *} after:{#combo-1 img ~ img}"
+             width="50">
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" title="here:{#combo-1 img ~ img}"
+             width="50">
+        <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" title="here:{#combo-1 img ~ img}"
+             width="50">
 
         <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p'</p>
         <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p'</p>
@@ -75,8 +79,10 @@
         </div>
         <div>
           <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm '<span>span</span>' in 'p' in 'div'</p>
-          <p>before:{#combo-1 div ~ div} here:{{#combo-1 *} {#combo-1 span ~ span}} -- I'm '<span>span</span>' after '<span>span</span>' in 'p' in 'div'</p>
-          <p>before:{#combo-1 div ~ div} here:{{#combo-1 *} {#combo-1 span ~ span}} -- I'm '<span>span</span>' after '<span>span</span>' after '<span>span</span>' in 'p' in 'div'</p>
+          <p>before:{#combo-1 div ~ div} here:{{#combo-1 *} {#combo-1 span ~ span}} -- I'm '<span>span</span>' after '<span>span</span>' in 'p' in 'div'
+          </p>
+          <p>before:{#combo-1 div ~ div} here:{{#combo-1 *} {#combo-1 span ~ span}} -- I'm '<span>span</span>' after '<span>span</span>' after '<span>span</span>' in 'p' in 'div'
+          </p>
         </div>
         <div>
           <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm '<span>span</span>' in 'p' in 'div'</p>
@@ -137,43 +143,42 @@
           </ol>
         </div>
         <div>
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
         </div>
         <div>
           <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
-            <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
-            <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
-            <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+            <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
+            <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
+            <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
+            <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
           </div>
         </div>
         <div>
           <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'p' in 'div' on top of 'img'</p>
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
         </div>
         <div>
-          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
           <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p' in 'div' below of 'img'</p>
         </div>
         <div>
           <p>before:{#combo-1 div ~ div} here:{#combo-1 *} -- I'm 'p' in 'div' on top of 'img'</p>
-          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" alt="img" width="50">
-          <img src="https://cdn-icons-png.flaticon.com/512/281/281747.png" alt="img" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/1240/1240975.png" width="50">
+          <img alt="img" src="https://cdn-icons-png.flaticon.com/512/281/281747.png" width="50">
           <p>here:{{#combo-1 *}{#combo-1 img ~ p}} -- I'm 'p' in 'div' below of 'img'</p>
         </div>
       </div>
     </div>
 
-    <!--    next-->
-
   </div>
+
 </main>
 
 </body>

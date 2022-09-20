@@ -3,12 +3,14 @@
     font-weight: 400;
     line-height: 1.3;
 }
+
 h1,
 h2,
 h3 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
+
 header {
     background-color: #751717;
     color: white;
@@ -16,6 +18,7 @@ header {
     padding: 30px;
     font-size: 20px;
 }
+
 footer {
     background-color: black;
     color: white;
@@ -23,6 +26,7 @@ footer {
     font-size: 20px;
     padding: 20px;
 }
+
 main {
     margin: 0 20px;
     background-color: rgba(222, 184, 135, 0.1);
@@ -37,41 +41,51 @@ main {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 .contents {
     width: 300px;
     border: 1px dashed black;
     background-color: rgba(0, 0, 0, 0.1);
     line-height: 1.2;
 }
+
 .contents:hover {
     border: 1px solid black;
 }
+
 .contents h2 {
     font-weight: bold;
     text-align: center;
 }
+
 .contents li a {
     color: black;
 }
+
 .contents li a:hover {
     text-decoration: underline;
     color: blue;
 }
+
 .neu-info {
     text-align: center;
     width: 350px;
     margin-left: auto;
     margin-right: 0;
 }
+
 .neu-img {
     text-align: center;
 }
+
 .neu-text {
     text-align: left;
 }
+
 .neu-text ul li {
     list-style: circle inside;
 }
+
 .neu-text li li {
     padding-left: 10px;
     list-style: disc inside;
@@ -86,6 +100,7 @@ main {
 .important {
     font-weight: bold;
 }
+
 .important:hover {
     color: red;
 }
@@ -94,30 +109,37 @@ main {
 li {
     list-style: disc inside;
 }
+
 div {
     padding: 10px;
     border: 1px dashed rgba(200, 222, 135, 1);
 }
+
 div:hover {
     border: 1px solid rgba(200, 222, 135, 1);
 }
+
 p {
     background-color: rgba(200, 222, 135, 0.2);
     line-height: 1.1;
     font-family: Lato, serif;
 }
+
 a {
     color: red;
 }
+
 a:hover {
     color: blue;
 }
+
 img {
     background-color: rgba(255, 0, 0, 0.1);
     padding: 10px;
     margin: 5px;
     border: 1px solid red;
 }
+
 img:hover {
     border: 1px solid blue;
 }
