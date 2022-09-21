@@ -4,4 +4,4 @@
 
 #### Requirements:
 
-- [X] create simple html page using basic tags
+- [x] create simple html page using basic tags
