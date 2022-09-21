@@ -1,178 +1,176 @@
 #go-head {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 #go-foot {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 .navigation {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .navigation:hover {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 h1,
 h2,
 h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 ul li {
-    padding-inline-start: 10px;
-    list-style-type: circle;
-    margin-left: 15px;
+  padding-inline-start: 10px;
+  list-style-type: circle;
+  margin-left: 15px;
 }
 
 .div-main-info {
-    font-family: 'Larsseit', sans-serif;
-    font-weight: 400;
-    margin-left: 5%;
-    margin-right: 5%;
+  font-family: "Larsseit", sans-serif;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .b-u {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 50px;
-    margin: 25px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  margin: 25px;
 }
 
 .div-main-info:hover .b-u {
-    color: saddlebrown;
+  color: saddlebrown;
 }
 
 #boston-university:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .extra-bold-larsseit {
-    font-family: 'Larsseit', sans-serif;
-    font-weight: 800;
+  font-family: "Larsseit", sans-serif;
+  font-weight: 800;
 }
 
 .extra-bold-larsseit:hover {
-    color: chocolate;
+  color: chocolate;
 }
 
-
 .div-contents {
-    text-align: center;
-    font-weight: 400;
+  text-align: center;
+  font-weight: 400;
 }
 
 .div-contents:hover {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .cts {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .div-contents:hover .cts {
-    color: saddlebrown;
-    font-size: 30px;
+  color: saddlebrown;
+  font-size: 30px;
 }
 
-
 h2:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .div-all-info {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    margin-left: 5%;
-    margin-right: 5%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .history-li:hover .history-main {
-    color: saddlebrown;
-    font-size: 30px;
+  color: saddlebrown;
+  font-size: 30px;
 }
 
 .notable-alumni-li:hover .notable-alumni-main {
-    color: saddlebrown;
-    font-size: 30px;
+  color: saddlebrown;
+  font-size: 30px;
 }
 
 .hoverable:hover {
-    color: burlywood;
+  color: burlywood;
 }
 
 .hstr {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 
 .ntbl-alm {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 
 h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 .div-history:hover .hstr {
-    color: saddlebrown;
+  color: saddlebrown;
 }
 
 .div-notable-alumni:hover .ntbl-alm {
-    color: saddlebrown;
+  color: saddlebrown;
 }
 
 .prc {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 
 .prc + p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
 .div-price {
-    margin-left: 15%;
-    margin-right: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .div-price:hover .prc {
-    color: saddlebrown;
+  color: saddlebrown;
 }
 
 .div-text:hover h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .div-paragraph:hover h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .link {
-    color: red;
+  color: red;
 }
 
 .link:hover {
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
